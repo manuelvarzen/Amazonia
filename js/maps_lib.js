@@ -30,7 +30,7 @@ var MapsLib = {
   //name of the location column in your Fusion Table.
   //NOTE: if your location column name has spaces in it, surround it with single quotes
   //example: locationColumn:     "'my location'",
-  locationColumn:     "FRONTERA_LAT_IE",
+  locationColumn:     FRONTERA_LAT_IE,
 
   map_centroid:       new google.maps.LatLng(-3.1912277,-75.0279307), //center that your map defaults to
   locationScope:      "Lima",      //geographical area appended to all address searches
@@ -38,7 +38,7 @@ var MapsLib = {
   recordNamePlural:   "results",
 
   searchRadius:       805,            //in meters ~ 1/2 mile
-  defaultZoom:        8,             //zoom level when map is loaded (bigger is more zoomed in)
+  defaultZoom:        6,             //zoom level when map is loaded (bigger is more zoomed in)
   addrMarkerImage:    'images/blue-pushpin.png', // set to empty '' to hide searched address marker
   currentPinpoint:    null,
 
